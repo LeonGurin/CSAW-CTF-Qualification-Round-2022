@@ -79,4 +79,4 @@ while True:
 
 the final line is:
 
-> 
+> CTF{w0rdS_4R3_4mAz1nG_r1ght}
