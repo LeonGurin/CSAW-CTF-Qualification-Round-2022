@@ -6,7 +6,7 @@ As an intern in the security department, you want to show the admin what a major
 
 NOTE: The flag is just the admin's password.
 
-*Given:* [encrypt.py]() [leaked_password.txt]() [encrypted_passwords.txt]()
+*Given:* [encrypt.py](https://github.com/LeonGurin/CSAW-CTF-Qualification-Round-2022/blob/main/Gotta%20Crack%20Them%20All/encrypt.py) [leaked_password.txt](https://github.com/LeonGurin/CSAW-CTF-Qualification-Round-2022/blob/main/Gotta%20Crack%20Them%20All/leaked_password.txt) [encrypted_passwords.txt](https://github.com/LeonGurin/CSAW-CTF-Qualification-Round-2022/blob/main/Gotta%20Crack%20Them%20All/encrypted_passwords.txt)
 
 ___
 
@@ -139,8 +139,7 @@ I grabbed the longest password I could find `Hakamo-o-Dragon-FigÕãwj0` and che
 
 And so I entered it in the netcat script and got the encryption, found the key with the same code I wrote in the beginning and decrypted all of the passwords again.
 
-```
-
+```python
 # enc = b'kz\xc6\xb9\xd9Du\xcb\x8a\x9e\xe0\x9d\xbeo\xee\x03\xcf\xddd'
 
 # with open('leaked_password.txt','r') as f:

@@ -5,9 +5,9 @@
  | --------------          | ------
  | Welcome | 1/1
  | Our Spy In New Terrain (OSINT) | x/x
- | [DockREleakage]() | x/x
- | [Gotta Crack Them All]() | x/x
- | [Word Wide Web]() | x/x
+ | DockREleakage | x/x
+ | [Gotta Crack Them All](https://github.com/LeonGurin/CSAW-CTF-Qualification-Round-2022/tree/main/Gotta%20Crack%20Them%20All) | x/x
+ | [Word Wide Web](https://github.com/LeonGurin/CSAW-CTF-Qualification-Round-2022/tree/main/Word%20Wide%20Web) | x/x
 
 **Note:** during the competition I solved the challenge `Our Spy In New Terrain (OSINT)` by finding an unintended vulnerability - I found the source code of the question on github by entering the username of the twitter account in the github searchbar and it redirected me to the python code of the question where they had wrote this username in a print() statement.
 
